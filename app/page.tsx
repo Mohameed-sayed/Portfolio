@@ -243,6 +243,7 @@ export default function Home() {
                 period="2024–2025"
                 organization="ISchool"
                 description="Taught programming concepts and web development to students, enhancing communication and leadership skills."
+                certificateImage="/images/ischool/certificate.png"
               />
             </div>
           </div>
