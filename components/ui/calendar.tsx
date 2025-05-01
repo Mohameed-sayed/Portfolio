@@ -53,10 +53,8 @@ function Calendar({
         day_hidden: "invisible",
         ...classNames,
       }}
-      components={{
-        IconLeft: ({ ...props }) => <ChevronLeft className="h-4 w-4" />,
-        IconRight: ({ ...props }) => <ChevronRight className="h-4 w-4" />,
-      }}
+      fromMonth={new Date(2020, 0)} // Example: Set the starting month
+      toMonth={new Date(2030, 11)} // Example: Set the ending month
       {...props}
     />
   )
@@ -64,3 +62,4 @@ function Calendar({
 Calendar.displayName = "Calendar"
 
 export { Calendar }
+

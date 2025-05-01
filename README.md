@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Website
 
 A personal portfolio website built with Next.js and Tailwind CSS.
@@ -114,3 +115,6 @@ If you encounter any issues running the project:
 3. **Font Loading Issues**: The project uses system fonts to avoid SWC/Babel conflicts.
 
 4. **CSS Optimization**: CSS optimization is disabled to prevent issues with the Critters module.
+=======
+# Portfolio
+>>>>>>> 4dca94d174fae468128dc4d942506c3a5ecf0370
